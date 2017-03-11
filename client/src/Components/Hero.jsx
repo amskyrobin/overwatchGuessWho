@@ -7,7 +7,9 @@ const Hero = (props) => {
     <div>
       {props.heroData.map((hero, index) => {
         return (
-          <h1 key={index}>{hero.name}</h1>
+          <div className="hero-details" key={index} id={index}>
+            <h1>{hero.name}</h1>
+          </div>
           )
         })}
     </div>

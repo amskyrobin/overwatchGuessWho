@@ -1,11 +1,13 @@
 import React, { Component } from 'react';
 import Hero from '../Components/Hero';
+import QuestionOne from '../Components/QuestionOne';
 
 
 class BaseContainer extends Component {
   constructor(props){
     super(props);
-    this.state = {heroData: []}
+    this.state = {heroData: [], questionFocus: null}
+    this.handleSelectChange = this.handleSelectChange.bind(this);
   }
 
   componentDidMount () {
@@ -28,6 +30,13 @@ class BaseContainer extends Component {
     request.send();
   }
 
+  handleSelectChange (event) {
+    this.setState({questionFocus: event.target.value});
+    console.log(this.state)
+
+
+  }
+
 
   render () {
     return (
@@ -35,6 +44,11 @@ class BaseContainer extends Component {
       <h1>just checking in rendering lol</h1>
       <Hero heroData ={this.state.heroData}
       />
+      <QuestionOne 
+      heroData ={this.state.heroData}
+      handleSelectChange={this.handleSelectChange}
+
+         />
     </div>
     )
   }
