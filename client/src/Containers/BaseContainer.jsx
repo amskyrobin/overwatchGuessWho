@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
 import Hero from '../Components/Hero';
 import QuestionOne from '../Components/QuestionOne';
+import QuestionTwo from '../Components/QuestionTwo';
 
 
 class BaseContainer extends Component {
   constructor(props){
     super(props);
-    this.state = {heroData: [], questionFocus: null}
+    this.state = {heroData: [], questionFocus: null, difficultyFocus: null}
     this.handleSelectChange = this.handleSelectChange.bind(this);
+    this.handleSecondQuestionChange = this.handleSecondQuestionChange.bind(this)
   }
 
   componentDidMount () {
@@ -32,7 +34,14 @@ class BaseContainer extends Component {
 
   handleSelectChange (event) {
     this.setState({questionFocus: event.target.value});
-    console.log(this.state)
+    // console.log(this.state)
+
+
+  }
+
+  handleSecondQuestionChange (event) {
+    this.setState({difficultyFocus: event.target.value});
+    // console.log(this.state)
 
 
   }
@@ -43,12 +52,19 @@ class BaseContainer extends Component {
     <div>
       <h1>just checking in rendering lol</h1>
       <Hero heroData ={this.state.heroData}
+      questionFocus={this.state.questionFocus}
+      difficultyFocus={this.state.difficultyFocus}
       />
       <QuestionOne 
       heroData ={this.state.heroData}
       handleSelectChange={this.handleSelectChange}
 
          />
+
+      <QuestionTwo
+      heroData ={this.state.heroData}
+      handleSecondQuestionChange={this.handleSecondQuestionChange}
+      />
     </div>
     )
   }
