@@ -3,12 +3,13 @@ import React from 'react';
 
 const Hero = (props) => {
   return (
-    <div>
+    <div className ="big-div">
       {props.heroData.map((hero, index) => {
+        var divToHide = document.getElementsByClassName('hero-details')[0];
         var healthProp = (props.questionFocus)
         var difficultyProp = (props.difficultyFocus)
         if (healthProp == hero.health || difficultyProp == hero.difficulty) {
-        return <div></div>
+        divToHide.style.display = 'hidden';
         // console.log(index)
         } else {
         // console.log(healthProp)

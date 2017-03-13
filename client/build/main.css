@@ -24,6 +24,32 @@
   font-size: 11px;
 }
 
+.big-div {
+
+  padding-top: 70px;
+}
+
+#header h1 {
+  text-align: center;
+  padding-top: 25px;
+  color: sienna;
+  font-size: 80px;
+  font-family: sans-serif;
+  margin: 0;
+  margin-top: 50px;
+}
+
+#header {
+  background: rgba(204, 204, 204, 0.5);
+  padding: 0;
+}
+
+/*.hidden-div {
+  width:100px;
+  height: 200px;
+  display: inline-block;
+}*/
+
 #header {
   width: 1264px;
   height: 170px;
@@ -100,7 +126,7 @@ html {
 }
 
   #\35 {
-  background: url(http://i.imgur.com/aGmMkbG.png);
+  background: url(http://i.imgur.com/br9souW.png);
   background-size: 90px 100px;
   background-repeat: no-repeat;
   background-position: 4px 5px;
