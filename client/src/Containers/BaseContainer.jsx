@@ -2,18 +2,20 @@ import React, { Component } from 'react';
 import Hero from '../Components/Hero';
 import QuestionOne from '../Components/QuestionOne';
 import QuestionTwo from '../Components/QuestionTwo';
+import Guess from '../Components/Guess';
 
 
 class BaseContainer extends Component {
   constructor(props){
     super(props);
-    this.state = {heroData: [], questionFocus: null, difficultyFocus: null}
+    this.state = {heroData: [], questionFocus: null, difficultyFocus: null, win: null}
     this.handleSelectChange = this.handleSelectChange.bind(this);
     this.handleSecondQuestionChange = this.handleSecondQuestionChange.bind(this)
   }
 
   componentDidMount () {
     this.getHeroData(this.props.url)
+    // this.aWinnerIsYou();
   }
 
   getHeroData (url) {
@@ -26,7 +28,12 @@ class BaseContainer extends Component {
         var heroList = JSON.parse(jsonString);
   
         this.setState({heroData: heroList.data});
-        console.log("state", this.state.heroData);
+
+        var heroData = this.state.heroData;
+        var getWin = heroData[Math.floor(Math.random()*heroData.length)]
+        console.log(getWin)
+        this.setState({win: getWin})
+        console.log("state", this.state.win);
       }
     }
     request.send();
@@ -46,6 +53,13 @@ class BaseContainer extends Component {
 
   }
 
+  // aWinnerIsYou (){
+  //   var heroData = this.getHeroData('https://overwatch-api.net/api/v1/hero')
+  //   console.log(this.state.heroData)
+  //   var getWin = heroData[Math.floor(Math.random()*heroData.length)]
+  //   this.setState({win: getWin})
+  // }
+
 
   render () {
     return (
@@ -64,6 +78,7 @@ class BaseContainer extends Component {
       heroData ={this.state.heroData}
       handleSecondQuestionChange={this.handleSecondQuestionChange}
       />
+
     </div>
     )
   }

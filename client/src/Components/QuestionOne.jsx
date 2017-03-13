@@ -17,7 +17,7 @@ const QuestionOne = (props) => {
  
   return (
     <div>
-    <h1>In what range in their health?</h1>
+    <h1>In what range is their health?</h1>
     <select className="question-one-select" onChange={props.handleSelectChange}>
       {props.heroData.map((hero, index) => { 
 

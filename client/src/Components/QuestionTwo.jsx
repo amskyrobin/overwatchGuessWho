@@ -13,7 +13,7 @@ const QuestionTwo = (props) => {
     // });
 
 
-
+//create a for loop and copy it in 
  
   return (
     <div>
