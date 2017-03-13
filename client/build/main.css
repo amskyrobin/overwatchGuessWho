@@ -1,8 +1,288 @@
 .hero-details {
 
-  width: 200px;
+  width: 100px;
   height: 200px;
   margin: 0;
-  margin-left: 20px;
+  margin-left: 50px;
+  margin-top: 20px;
   display:inline-block;
+  font-size: 8px;
 }
+
+.hero-details h1 {
+
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.hero-details h3 {
+
+  position: relative;
+  top: 120px;
+  text-align: center;
+  font-size: 11px;
+}
+
+#header {
+  width: 1264px;
+  height: 170px;
+
+}
+
+
+html {
+  background: url(http://i.imgur.com/O5nY9vo.jpg) no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  background: linear-gradient (#174085, #174085);
+}
+
+  #\31\32 {
+  background: url(http://i.imgur.com/4EsYsVs.png);
+  background-position: 4px 5px;
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+
+
+}
+
+  #\30 {
+  background: url(http://i.imgur.com/b9pX3mk.png);
+  background-size: 90px 100px;
+  background-position: 4px 5px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+  #\31 {
+  background: url(http://i.imgur.com/mh90B2Z.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-position: 4px 5px;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+  #\32 {
+  background: url(http://i.imgur.com/aGmMkbG.png);
+  background-size: 90px 100px;
+  background-position: 4px 5px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+  #\33 {
+  background: url(http://i.imgur.com/2smuqbX.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-position: 4px 5px;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+  #\34 {
+  background: url(http://i.imgur.com/kPecuG8.png);
+  background-size: 90px 100px;
+  background-position: 4px 5px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+  #\35 {
+  background: url(http://i.imgur.com/aGmMkbG.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-position: 4px 5px;
+  background-color: white;
+  opacity: 0.8;
+
+}
+
+
+  #\36 {
+  background: url(http://i.imgur.com/uiESt6Z.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-position: 4px 5px;
+  opacity: 0.8;
+
+}
+
+
+  #\37 {
+  background: url(http://i.imgur.com/p8qs4Vj.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\38 {
+  background: url(http://i.imgur.com/s3xnLr8.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+}
+
+
+  #\39 {
+  background: url(http://i.imgur.com/bgibwt6.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\31\30 {
+  background: url(http://i.imgur.com/OE5DDt1.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\31\31 {
+  background: url(http://i.imgur.com/MhuGAUl.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+  #\31\33 {
+  background: url(http://i.imgur.com/RBNqFrR.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+  #\31\34 {
+  background: url(http://i.imgur.com/3EBaycn.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\31\35 {
+  background: url(http://i.imgur.com/Xc5qTXr.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\31\36 {
+  background: url(http://i.imgur.com/EeIa3sq.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\31\37 {
+  background: url(http://i.imgur.com/Yu4SpOQ.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+}
+
+
+  #\31\38 {
+  background: url(http://i.imgur.com/yGubf3U.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\31\39 {
+  background: url(http://i.imgur.com/l2WqlzC.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\32\30 {
+  background: url(http://i.imgur.com/FkzRH5X.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\32\31 {
+  background: url(http://i.imgur.com/1GzGWcj.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+  #\32\32 {
+  background: url(http://i.imgur.com/DEepYAQ.png);
+  background-size: 90px 100px;
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.8;
+  background-position: 4px 5px;
+
+}
+
+
+
+
+
+

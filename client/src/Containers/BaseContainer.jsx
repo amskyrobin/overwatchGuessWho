@@ -50,7 +50,6 @@ class BaseContainer extends Component {
   render () {
     return (
     <div>
-      <h1>just checking in rendering lol</h1>
       <Hero heroData ={this.state.heroData}
       questionFocus={this.state.questionFocus}
       difficultyFocus={this.state.difficultyFocus}
